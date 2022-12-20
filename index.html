@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Video Player</title>
-    <script src="main.js" defer></script>
+    <script src="/bundle.js"></script>
   </head>
   <body>
 
-    <video-header id="header" >
+    <video-header id="video-header" >
       <div slot="header-name">
-      <p > <h1> AWESOME HEADER </h1> </p>
+      <p> <h1> AWESOME HEADER </h1> </p>
       <ul slot="menu-items">
         <li> <a href="/">Link 1 </a></li>
         <li> <a href="/"> Link 2 </a> </li>
@@ -18,8 +18,8 @@
       </div>
 
     </video-header>
-
-    <video-footer id="footer">
+    <video-player></video-player>
+    <video-footer id="video-footer">
        <div slot="footer-name">
       <p > <h1> AWESOME Footer </h1> </p>
       <ul slot="footer-menu-items">
